@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research software and methodological tools developed by Polyzois Bountzis.">
+  <title>Software | Polyzois Bountzis</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html">Polyzois Bountzis</a>
+    <nav aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="software.html" aria-current="page">Software</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero container">
+    <p class="eyebrow">Software</p>
+    <h1>Research code and computational tools.</h1>
+    <p>This page is designed to make methodological work visible to both research collaborators and data-science employers. Link each project to a public repository when available.</p>
+  </section>
+
+  <section class="section container">
+    <div class="grid">
+      <article class="card">
+        <h3>SBI-ETAS</h3>
+        <p>Simulation-based Bayesian inference framework for ETAS / ETASI models, aimed at inference under short-term catalog incompleteness and computationally challenging likelihoods.</p>
+        <div class="badge-row"><span class="badge">Python</span><span class="badge">Bayesian inference</span><span class="badge">ABC / SMC</span></div>
+        <p class="meta"><strong>Status:</strong> research code / publication workflow.</p>
+      </article>
+      <article class="card">
+        <h3>NN / SI Declustering</h3>
+        <p>Automated nearest-neighbour declustering using a statistically identified threshold and Susceptibility Index diagnostics, validated on synthetic ETAS catalogs and real seismicity.</p>
+        <div class="badge-row"><span class="badge">Python</span><span class="badge">Clustering</span><span class="badge">ETAS validation</span></div>
+        <p class="meta"><strong>Status:</strong> research software associated with the 2026 Earth and Space Science study.</p>
+      </article>
+      <article class="card">
+        <h3>ETAS calibration toolbox</h3>
+        <p>Planned user-facing Python toolbox bringing together ETAS variants and multiple inference approaches such as stochastic declustering, EM-type methods, gradient-based optimisation and simulation-based inference.</p>
+        <div class="badge-row"><span class="badge">Python</span><span class="badge">ETAS</span><span class="badge">Inference</span></div>
+        <p class="meta"><strong>Status:</strong> planned project.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section container">
+    <h2>Other computational work</h2>
+    <div class="grid two">
+      <article class="card">
+        <h3>Seismicity simulation & optimisation</h3>
+        <p>Implementation of earthquake point-process simulation and inversion workflows in Python and Fortran, including stochastic optimisation and catalogue-based diagnostics.</p>
+      </article>
+      <article class="card">
+        <h3>Machine-learning pipelines</h3>
+        <p>TensorFlow / Keras and scikit-learn workflows for autoencoders, one-class SVMs, novelty detection and federated-learning experiments using FLOWER.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section container">
+    <div class="callout"><strong>Before publishing:</strong> add direct GitHub buttons only for repositories that are public. Keeping unreleased research code described without a link is preferable to exposing private or unstable repositories.</div>
+    <a class="btn primary" href="https://github.com/" rel="noopener">GitHub profile</a>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-row"><span>© Polyzois Bountzis</span><a href="publications.html">Publications</a></div>
+</footer>
+</body>
+</html>

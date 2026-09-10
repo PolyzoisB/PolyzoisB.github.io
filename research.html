@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research of Polyzois Bountzis in statistical seismology, earthquake forecasting, clustering and Bayesian inference.">
+  <title>Research | Polyzois Bountzis</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html">Polyzois Bountzis</a>
+    <nav aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="research.html" aria-current="page">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="software.html">Software</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero container">
+    <p class="eyebrow">Research</p>
+    <h1>Statistical models for complex seismicity.</h1>
+    <p>My work combines stochastic point processes, Bayesian and simulation-based inference, clustering methods and machine learning to study earthquake occurrence and improve probabilistic interpretation and forecasting.</p>
+  </section>
+
+  <section class="section container">
+    <article class="feature" id="sbi-etas">
+      <div>
+        <h2>Simulation-based inference for ETAS</h2>
+        <p>ETAS models are widely used to represent earthquake triggering, but inference can become challenging when catalogs are incomplete or the likelihood is computationally expensive. My recent work develops a likelihood-free framework that estimates ETAS-type models through simulation-based inference, combining stochastic simulation, summary statistics and Bayesian calibration.</p>
+        <p>The broader aim is to make inference more robust under realistic observation conditions and to support short-term probabilistic forecasting when standard maximum-likelihood assumptions are strained.</p>
+      </div>
+      <aside>
+        <strong>Methods</strong><br>
+        ETAS / ETASI<br>
+        Approximate Bayesian computation<br>
+        Sequential Monte Carlo<br>
+        Stochastic optimisation<br>
+        Catalog incompleteness
+      </aside>
+    </article>
+
+    <article class="feature" id="declustering">
+      <div>
+        <h2>Earthquake clustering and declustering</h2>
+        <p>A second line of research concerns the separation of background seismicity from triggered activity. I work with nearest-neighbour representations of earthquake catalogs and automated procedures for identifying statistically meaningful clustering scales.</p>
+        <p>This includes the Susceptibility Index approach and automatic nearest-neighbour declustering, designed to reduce dependence on manually selected thresholds and to provide an interpretable, non-parametric partition of seismicity.</p>
+      </div>
+      <aside>
+        <strong>Methods</strong><br>
+        Nearest-neighbour distance<br>
+        Susceptibility Index<br>
+        Non-parametric declustering<br>
+        Synthetic ETAS validation<br>
+        Cluster diagnostics
+      </aside>
+    </article>
+
+    <article class="feature" id="corinth">
+      <div>
+        <h2>Triggering mechanisms and repeating earthquakes</h2>
+        <p>I study clustered earthquake sequences through complementary statistical and waveform-based approaches. In the 2020–2021 Gulf of Corinth seismic crisis, this included the identification of repeating-earthquake families, analysis of migration patterns and integration with triggering interpretations based on stress transfer, fluid processes and aseismic deformation.</p>
+        <p>The objective is not only to classify events statistically, but also to connect observed spatio-temporal structure with plausible physical mechanisms.</p>
+      </div>
+      <aside>
+        <strong>Methods</strong><br>
+        Waveform cross-correlation<br>
+        DBSCAN<br>
+        Repeating earthquakes<br>
+        Migration analysis<br>
+        Triggering interpretation
+      </aside>
+    </article>
+
+    <article class="feature">
+      <div>
+        <h2>Non-stationary stochastic modelling</h2>
+        <p>Earlier work used Markovian Arrival Processes to represent changes between low- and high-activity seismic regimes and to describe long-term variability in earthquake occurrence. These models were applied to clustering analysis and pseudo-prospective forecasting of large earthquakes.</p>
+      </div>
+      <aside>
+        <strong>Methods</strong><br>
+        Markovian Arrival Processes<br>
+        Hidden-state modelling<br>
+        AIC / BIC<br>
+        Local decoding<br>
+        Pseudo-prospective testing
+      </aside>
+    </article>
+
+    <article class="feature">
+      <div>
+        <h2>Machine learning for anomaly detection</h2>
+        <p>During my work in cybersecurity research, I developed machine-learning workflows for network anomaly and novelty detection. These included autoencoders, one-class support vector machines, federated-learning experiments and methods for improving model generalisation across heterogeneous data environments.</p>
+      </div>
+      <aside>
+        <strong>Methods</strong><br>
+        Autoencoders<br>
+        One-class SVM<br>
+        Novelty detection<br>
+        Federated learning<br>
+        Cross-domain generalisation
+      </aside>
+    </article>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    <span>© Polyzois Bountzis</span>
+    <div class="footer-links"><a href="publications.html">Publications</a><a href="software.html">Software</a></div>
+  </div>
+</footer>
+</body>
+</html>
